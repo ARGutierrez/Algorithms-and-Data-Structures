@@ -1,0 +1,3 @@
+abridged.py: Parses the abridged version of Moby Dick and stores each unique word in an undirected graph with an edge connected to its neighbor. Each time a word appears next to another, the edge between them has its weight incremented by 1. Once the graph is complete, the weight of the minimum spanning tree is displayed.
+
+abridgedDirected.py: The same as the above but done with a directed graph. Instead of finding the weight of the minimum spanning tree, the shortest path in the graph between the words 'the' and 'whale' is displayed. This is done using the NetworkX inplementation of Dijkstra's algorithm.
